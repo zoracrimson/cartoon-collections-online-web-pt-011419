@@ -15,5 +15,5 @@ def long_planeteer_calls(calls_long)
 end 
 
 def find_the_cheese(array)
-  array.detect("cheddar", "gouda", "camembert")
+  array.detect("cheddar")
 end
