@@ -14,6 +14,6 @@ def long_planeteer_calls(calls_long)
   calls_long.any? { | call | call.length > 4}
 end 
 
-def find_the_cheese(contains_cheddar)
-  contains_cheddar.include?("cheddar", "gouda", "camembert")
+def find_the_cheese(array)
+  array.detect("cheddar", "gouda", "camembert")
 end
